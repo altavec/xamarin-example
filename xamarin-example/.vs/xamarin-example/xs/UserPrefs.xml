@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{9CAC68AC-ABAD-4CC2-AE26-F62766D494B2}|Default">
+  <MonoDevelop.Ide.ItemProperties.xamarin-example.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C30BC242-931E-49AD-9F67-5732020263DC" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Android_TV_1080p_Edited_API_30" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="xamarin-example/xamarin-example/MainPage.xaml">
+    <Files>
+      <File FileName="xamarin-example/xamarin-example/MainPage.xaml.cs" Line="17" Column="1" />
+      <File FileName="xamarin-example/xamarin-example/MainPage.xaml" Line="14" Column="33" />
+      <File FileName="xamarin-example/xamarin-example/ModelForView.cs" Line="19" Column="28" />
+      <File FileName="xamarin-example/xamarin-example/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="xamarin-example/xamarin-example/App.xaml" Line="9" Column="1" />
+      <File FileName="xamarin-example/xamarin-example/xamarin-example.csproj" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="xamarin-example" expanded="True">
+            <Node name="xamarin-example" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="xamarin-example.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
