@@ -14,6 +14,11 @@ namespace xamarin_example
         {
             InitializeComponent();
         }
+
+        public void Button_Clicked(System.Object sender, System.EventArgs e)
+        {
+            DisplayAlert("You clicked", "Yay", "Ok");
+        }
     }
 }
 

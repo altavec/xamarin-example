@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9CAC68AC-ABAD-4CC2-AE26-F62766D494B2}</ProjectGuid>
+    <ProjectGuid>{48A4B7FC-0CD3-4B4C-B276-A56101A1AF37}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -123,14 +123,17 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2578" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.5" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\xamarin-example\xamarin-example.csproj">
-      <Project>{51C88833-0250-4AC1-BCDE-667EAF49EB82}</Project>
+      <Project>{8BC68195-E1BE-4140-89C6-7D5668FE8C02}</Project>
       <Name>xamarin-example</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\test.png" />
   </ItemGroup>
 </Project>
